@@ -42,7 +42,7 @@ aavartak@github
   Github: ............................................... aavartak
 
 - Achievements
-  Certified: ........ AI Skills Passport (EY x Microsoft)
+  Certified: ................. AI Skills Passport (EY x Microsoft)
   Projects: ................................ paisabuddy | FinTrack
 ```
 
