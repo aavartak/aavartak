@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="200" viewBox="0 0 980 200" font-family="JetBrains Mono, DejaVu Sans Mono, monospace">
+<defs>
+<linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0b1020"/><stop offset="50%" stop-color="#0d1117"/><stop offset="100%" stop-color="#141c2f"/>
+</linearGradient>
+<linearGradient id="htext" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#39d353"/><stop offset="45%" stop-color="#58a6ff"/><stop offset="100%" stop-color="#bc8cff"/>
+  <animate attributeName="x1" values="-1;0;-1" dur="6s" repeatCount="indefinite"/>
+  <animate attributeName="x2" values="1;2;1" dur="6s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#39d353" stop-opacity=".45"/><stop offset="100%" stop-color="#58a6ff" stop-opacity=".45"/>
+</linearGradient>
+<linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#bc8cff" stop-opacity=".35"/><stop offset="100%" stop-color="#39c5cf" stop-opacity=".35"/>
+</linearGradient>
+<filter id="hglow"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="hclip"><rect x="0" y="0" width="980" height="200" rx="16"/></clipPath>
+<clipPath id="hType"><rect x="0" y="52" width="0" height="40"><animate attributeName="width" values="0;980" dur="2.2s" begin="0.3s" fill="freeze"/></rect></clipPath>
+<style>
+.h1{font-size:30px;font-weight:700;fill:url(#htext)}
+.h2{font-size:14px;fill:#8b949e}
+.dot{opacity:.5}
+@keyframes hblink{50%{opacity:0}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.cur{animation:hblink .9s step-end infinite}
+.bob{animation:bob 4s ease-in-out infinite}
+</style>
+</defs>
+
+<rect width="980" height="200" rx="16" fill="url(#hbg)"/>
+
+<g clip-path="url(#hclip)">
+  <g fill="#58a6ff" opacity=".35">
+    <circle cx="90" cy="46" r="2"><animate attributeName="cy" values="46;36;46" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="150" r="1.6" fill="#39d353"><animate attributeName="cy" values="150;138;150" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="60" r="2.2" fill="#bc8cff"><animate attributeName="cy" values="60;48;60" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="150" r="1.4" fill="#39c5cf"><animate attributeName="cy" values="150;140;150" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="30" r="1.5"><animate attributeName="opacity" values=".1;.9;.1" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g class="bob" opacity=".9">
+    <circle cx="72" cy="100" r="26" fill="none" stroke="#39d353" stroke-width="1.2" stroke-dasharray="6 6">
+      <animateTransform attributeName="transform" type="rotate" from="0 72 100" to="360 72 100" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="72" cy="100" r="16" fill="none" stroke="#58a6ff" stroke-width="1.2" stroke-dasharray="4 8">
+      <animateTransform attributeName="transform" type="rotate" from="360 72 100" to="0 72 100" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="72" cy="100" r="5" fill="#bc8cff"><animate attributeName="r" values="4;6.5;4" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g class="bob" opacity=".9" style="animation-delay:.8s">
+    <circle cx="908" cy="100" r="26" fill="none" stroke="#bc8cff" stroke-width="1.2" stroke-dasharray="6 6">
+      <animateTransform attributeName="transform" type="rotate" from="360 908 100" to="0 908 100" dur="16s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="908" cy="100" r="5" fill="#39d353"><animate attributeName="r" values="6.5;4;6.5" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g clip-path="url(#hType)">
+    <text x="490" y="82" class="h1" text-anchor="middle" filter="url(#hglow)">Hi there, I'm aavartak</text>
+  </g>
+  <text x="490" y="82" class="h1 cur" text-anchor="middle" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="2.6s" dur=".1s" fill="freeze"/>
+    <tspan dx="200">▌</tspan>
+  </text>
+
+  <g text-anchor="middle">
+    <text x="490" y="112" class="h2" opacity="0">Computer Engineer · Systems &amp; C/C++ enthusiast
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.28;0.36" dur="12s" begin="2.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="490" y="112" class="h2" opacity="0">Frontend crafting with React · HTML · CSS
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.43;0.61;0.69" dur="12s" begin="2.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="490" y="112" class="h2" opacity="0">Cyber Security explorer · always shipping
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.76;0.94;1" dur="12s" begin="2.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <line x1="360" y1="128" x2="620" y2="128" stroke="#30363d" stroke-dasharray="260" stroke-dashoffset="260">
+    <animate attributeName="stroke-dashoffset" from="260" to="0" dur="1.4s" begin="2.4s" fill="freeze"/>
+  </line>
+  <circle cx="360" cy="128" r="2.6" fill="#39d353" opacity="0" filter="url(#hglow)">
+    <animate attributeName="opacity" values="0;1" begin="2.4s" dur=".3s" fill="freeze"/>
+    <animate attributeName="cx" values="360;620;360" dur="4s" begin="3.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <g>
+    <path d="M0 168 Q 122 148 245 168 T 490 168 T 735 168 T 980 168 T 1225 168 V 200 H 0 Z" fill="url(#wave1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-490 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 178 Q 122 196 245 178 T 490 178 T 735 178 T 980 178 T 1225 178 V 200 H 0 Z" fill="url(#wave2)">
+      <animateTransform attributeName="transform" type="translate" values="-490 0;0 0" dur="11s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</g>
+
+<rect x=".8" y=".8" width="978.4" height="198.4" rx="16" fill="none" stroke="#30363d"/>
+<rect x=".8" y=".8" width="978.4" height="198.4" rx="16" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="140 2200" filter="url(#hglow)">
+  <animate attributeName="stroke-dashoffset" values="0;-2340" dur="6s" repeatCount="indefinite"/>
+</rect>
+</svg>
