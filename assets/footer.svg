@@ -41,9 +41,7 @@
     <circle cx="860" cy="16" r="1.2"><animate attributeName="opacity" values=".8;.1;.8" dur="3s" repeatCount="indefinite"/></circle>
   </g>
 
-  <text x="490" y="44" text-anchor="middle" font-size="18" font-weight="700" fill="url(#ftext)" filter="url(#fglow)">thanks for scrolling ✦ let's build something
-  </text>
-  <text x="490" y="70" text-anchor="middle" font-size="12.5" fill="#8b949e">$ git commit -m "keep going"<tspan class="fc" fill="#39d353"> ▌</tspan></text>
+  <text x="490" y="58" text-anchor="middle" font-size="16" font-weight="700" fill="url(#ftext)" filter="url(#fglow)">$ git commit -m "keep going"<tspan class="fc" fill="#39d353"> ▌</tspan></text>
 
   <g>
     <circle cx="0" cy="110" r="3" fill="#39d353" filter="url(#fglow)">
