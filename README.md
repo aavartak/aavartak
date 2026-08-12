@@ -1,16 +1,51 @@
-## Hi there 👋
+<table>
+<tr>
+<td valign="top">
 
-<!--
-**aavartak/aavartak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```
+         ========================.
+         -@@@@@@@@@@@@@@@@@@@@@@=
+          .-==============#@@@%:
+         .#=    .:..     -@@@%.
+        :%@@+   -@@@#:  +@@@#.
+       -@@@@@*   :@@@@-*@@@*
+      =@@@%@@@#.  .%@@@@@@+
+     +@@@#.-@@@%:  .#@@@@=
+    *@@@*   :*%%#:   *@@-
+  .#@@@+              =:
+ .%@@@@###############*.
+:%@@@@@@@@@@@@@@@@@@@@@%:
+.........................
+```
 
-Here are some ideas to get you started:
+</td>
+<td valign="top">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```yaml
+aavartak@github
+----------------------------------------------------------------
+  OS: ................................... Linux >> Windows > macOS
+  Uptime: ............................. 0 Years, 6 Months, 22 days
+  Host: ........................... Virar West, Maharashtra, India
+  Kernel: ...................................... Computer Engineer
+  IDE: ................................................... VS Code
+
+  Languages.Programming: .................................. C, C++
+  Languages.Web: ................................ HTML, CSS, React
+  Languages.Data: ..................................... PostgreSQL
+
+  Hobbies.Tech: ................................... Cyber Security
+
+- Contact
+  Email: ............................... av.project.2103@gmail.com
+  Phone: ......................................... +91 77200 54888
+  Github: ............................................... aavartak
+
+- Achievements
+  Certified: ............................. Microsoft Certification
+  Projects: ................................ paisabuddy | FinTrack
+```
+
+</td>
+</tr>
+</table>
