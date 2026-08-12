@@ -1,62 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="140" viewBox="0 0 980 140" font-family="JetBrains Mono, DejaVu Sans Mono, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="150" viewBox="0 0 980 150" font-family="JetBrains Mono, DejaVu Sans Mono, monospace">
 <defs>
 <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#111a2b"/><stop offset="100%" stop-color="#0d1117"/>
+  <stop offset="0%" stop-color="#111a2b"/><stop offset="100%" stop-color="#0a0e18"/>
 </linearGradient>
 <linearGradient id="fw1" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%" stop-color="#39d353" stop-opacity=".4"/><stop offset="100%" stop-color="#58a6ff" stop-opacity=".4"/>
+  <stop offset="0%" stop-color="#39d353" stop-opacity=".42"/><stop offset="100%" stop-color="#58a6ff" stop-opacity=".42"/>
 </linearGradient>
 <linearGradient id="fw2" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%" stop-color="#bc8cff" stop-opacity=".3"/><stop offset="100%" stop-color="#39c5cf" stop-opacity=".3"/>
+  <stop offset="0%" stop-color="#bc8cff" stop-opacity=".32"/><stop offset="100%" stop-color="#39c5cf" stop-opacity=".32"/>
+</linearGradient>
+<linearGradient id="fw3" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#58a6ff" stop-opacity=".2"/><stop offset="100%" stop-color="#39d353" stop-opacity=".2"/>
 </linearGradient>
 <linearGradient id="ftext" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#58a6ff"/><stop offset="50%" stop-color="#39d353"/><stop offset="100%" stop-color="#bc8cff"/>
   <animate attributeName="x1" values="-1;0;-1" dur="7s" repeatCount="indefinite"/>
   <animate attributeName="x2" values="1;2;1" dur="7s" repeatCount="indefinite"/>
 </linearGradient>
-<filter id="fglow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<clipPath id="fclip"><rect x="0" y="0" width="980" height="140" rx="14"/></clipPath>
+<filter id="fglow"><feGaussianBlur stdDeviation="2.2" result="b"><animate attributeName="stdDeviation" values="1.6;3.2;1.6" dur="4s" repeatCount="indefinite"/></feGaussianBlur><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="fclip"><rect x="0" y="0" width="980" height="150" rx="14"/></clipPath>
+<clipPath id="fType"><rect x="240" y="42" width="0" height="28"><animate attributeName="width" values="0;500" dur="2.4s" begin=".4s" fill="freeze"/></rect></clipPath>
 <style>
 @keyframes fblink{50%{opacity:0}}
 .fc{animation:fblink .9s step-end infinite}
 </style>
 </defs>
 
-<rect width="980" height="140" rx="14" fill="url(#fbg)"/>
+<rect width="980" height="150" rx="14" fill="url(#fbg)"/>
 
 <g clip-path="url(#fclip)">
-  <g>
-    <path d="M0 62 Q 122 42 245 62 T 490 62 T 735 62 T 980 62 T 1225 62 V 140 H 0 Z" fill="url(#fw1)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;-490 0" dur="10s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0 76 Q 122 96 245 76 T 490 76 T 735 76 T 980 76 T 1225 76 V 140 H 0 Z" fill="url(#fw2)">
-      <animateTransform attributeName="transform" type="translate" values="-490 0;0 0" dur="13s" repeatCount="indefinite"/>
-    </path>
-  </g>
-
   <g fill="#c9d1d9">
-    <circle cx="140" cy="28" r="1.4"><animate attributeName="opacity" values=".15;.9;.15" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="300" cy="18" r="1.2"><animate attributeName="opacity" values=".9;.1;.9" dur="3.4s" repeatCount="indefinite"/></circle>
-    <circle cx="700" cy="26" r="1.5"><animate attributeName="opacity" values=".2;.9;.2" dur="4.1s" repeatCount="indefinite"/></circle>
-    <circle cx="860" cy="16" r="1.2"><animate attributeName="opacity" values=".8;.1;.8" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="26" r="1.3"><animate attributeName="opacity" values=".15;.9;.15" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="286" cy="16" r="1.1"><animate attributeName="opacity" values=".9;.1;.9" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="512" cy="22" r="1.4"><animate attributeName="opacity" values=".2;.95;.2" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="702" cy="14" r="1.2"><animate attributeName="opacity" values=".8;.1;.8" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="874" cy="24" r="1.3"><animate attributeName="opacity" values=".1;.85;.1" dur="4.8s" repeatCount="indefinite"/></circle>
   </g>
 
-  <text x="490" y="58" text-anchor="middle" font-size="16" font-weight="700" fill="url(#ftext)" filter="url(#fglow)">$ git commit -m "keep going"<tspan class="fc" fill="#39d353"> ▌</tspan></text>
+  <g stroke="#7ee787" stroke-width="1.4" stroke-linecap="round" opacity=".75">
+    <line x1="0" y1="0" x2="22" y2="10">
+      <animateTransform attributeName="transform" type="translate" values="-60 -20;1040 340" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.9;0" dur="5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="0" x2="18" y2="8" stroke="#79c0ff">
+      <animateTransform attributeName="transform" type="translate" values="-60 -40;1040 320" dur="7s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.8;0" dur="7s" begin="2.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <g clip-path="url(#fType)">
+    <text x="240" y="62" font-size="17" font-weight="700" fill="url(#ftext)" filter="url(#fglow)">$ git commit -m "keep going"</text>
+  </g>
+  <text x="240" y="62" font-size="17" font-weight="700" fill="#39d353" class="fc" opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="2.9s" dur=".1s" fill="freeze"/>
+    <tspan dx="286">▌</tspan>
+  </text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" begin="3.2s" dur=".6s" fill="freeze"/>
+    <rect x="240" y="76" width="0" height="2" fill="#30363d">
+      <animate attributeName="width" values="0;300" dur="1.2s" begin="3.2s" fill="freeze"/>
+    </rect>
+  </g>
 
   <g>
-    <circle cx="0" cy="110" r="3" fill="#39d353" filter="url(#fglow)">
+    <path d="M0 96 Q 122 76 245 96 T 490 96 T 735 96 T 980 96 T 1225 96 V 150 H 0 Z" fill="url(#fw3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-490 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 106 Q 122 86 245 106 T 490 106 T 735 106 T 980 106 T 1225 106 V 150 H 0 Z" fill="url(#fw1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-490 0" dur="11s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 118 Q 122 138 245 118 T 490 118 T 735 118 T 980 118 T 1225 118 V 150 H 0 Z" fill="url(#fw2)">
+      <animateTransform attributeName="transform" type="translate" values="-490 0;0 0" dur="14s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g>
+    <circle cx="60" cy="128" r="3" fill="#39d353" filter="url(#fglow)">
       <animate attributeName="cx" values="60;920;60" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="110;96;110" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="128;112;128" dur="4.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="0" cy="118" r="2" fill="#bc8cff" opacity=".8" filter="url(#fglow)">
-      <animate attributeName="cx" values="920;60;920" dur="11s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="118;104;118" dur="5.5s" repeatCount="indefinite"/>
+    <circle cx="920" cy="136" r="2" fill="#bc8cff" opacity=".85" filter="url(#fglow)">
+      <animate attributeName="cx" values="920;60;920" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="136;120;136" dur="5.5s" repeatCount="indefinite"/>
     </circle>
   </g>
 </g>
 
-<rect x=".8" y=".8" width="978.4" height="138.4" rx="14" fill="none" stroke="#30363d"/>
-<rect x=".8" y=".8" width="978.4" height="138.4" rx="14" fill="none" stroke="#bc8cff" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="110 2100" filter="url(#fglow)">
-  <animate attributeName="stroke-dashoffset" values="-2210;0" dur="8s" repeatCount="indefinite"/>
+<rect x=".8" y=".8" width="978.4" height="148.4" rx="14" fill="none" stroke="#30363d"/>
+<rect x=".8" y=".8" width="978.4" height="148.4" rx="14" fill="none" stroke="url(#ftext)" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="120 2100" filter="url(#fglow)">
+  <animate attributeName="stroke-dashoffset" values="-2220;0" dur="8s" repeatCount="indefinite"/>
 </rect>
 </svg>

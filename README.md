@@ -1,20 +1,27 @@
 <div align="center">
 
-<!-- ░░ ANIMATED HEADER ░░ -->
-<img src="./assets/header.svg" alt="Hi there, I'm aavartak" width="100%" />
+<!-- ░░░░░ ANIMATED AURORA HEADER (glitch title + orbital rings) ░░░░░ -->
+<img src="./assets/header.svg" alt="aavartak" width="100%" />
 
-<!-- ░░ TYPING INTRO (animated) ░░ -->
+<!-- ░░░░░ TYPING INTRO ░░░░░ -->
 <a href="https://github.com/aavartak">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=800&color=39D353&center=true&vCenter=true&width=760&lines=Computer+Engineer+%F0%9F%92%BB;C+%2F+C%2B%2B+at+heart%2C+React+on+the+surface;PostgreSQL+%7C+Cyber+Security+%7C+Always+shipping;Turning+coffee+into+commits+since+day+one" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=900&color=39D353&center=true&vCenter=true&width=780&lines=booting+profile...;C+%2F+C%2B%2B+at+heart%2C+React+on+the+surface;PostgreSQL+queries+%2B+security+rabbit+holes;segfaults+are+just+plot+twists" alt="typing intro" />
 </a>
 
-<br/>
-
-<!-- ░░ ANIMATED DIVIDER ░░ -->
 <img src="./assets/divider.svg" alt="" width="100%" />
 
-<!-- ░░ NEOFETCH PROFILE CARD (animated) ░░ -->
+<!-- ░░░░░ LIVE BOOT SEQUENCE TERMINAL (typewriter + progress bar + binary rain) ░░░░░ -->
+<img src="./assets/boot.svg" alt="boot sequence" width="100%" />
+
+<img src="./assets/divider.svg" alt="" width="100%" />
+
+<!-- ░░░░░ NEOFETCH PROFILE CARD (scanlines, meters, drifting grid) ░░░░░ -->
 <img src="./card.svg" alt="aavartak — profile card" width="100%" />
+
+<img src="./assets/divider.svg" alt="" width="100%" />
+
+<!-- ░░░░░ VITALS MONITOR (ekg pulse + animated rings) ░░░░░ -->
+<img src="./assets/monitor.svg" alt="vitals monitor" width="100%" />
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
@@ -26,12 +33,13 @@
 
 <br/>
 
-<!-- ░░ SNAKE EATING CONTRIBUTIONS (animated) ░░ -->
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" width="100%" />
+<!-- ░░░░░ SNAKE EATING CONTRIBUTIONS ░░░░░ -->
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" width="100%" />
 
-<br/>
+<!-- ░░░░░ SELF-DRAWING SIGNATURE ░░░░░ -->
+<img src="./assets/signature.svg" alt="signature" width="100%" />
 
-<!-- ░░ ANIMATED FOOTER ░░ -->
+<!-- ░░░░░ ANIMATED FOOTER (layered waves + shooting stars) ░░░░░ -->
 <img src="./assets/footer.svg" alt="footer" width="100%" />
 
 </div>

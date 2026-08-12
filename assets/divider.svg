@@ -1,29 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="18" viewBox="0 0 980 18">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="980" height="26" viewBox="0 0 980 26">
 <defs>
 <linearGradient id="dline" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0%" stop-color="#39d353" stop-opacity="0"/>
-  <stop offset="25%" stop-color="#39d353" stop-opacity=".9"/>
-  <stop offset="50%" stop-color="#58a6ff" stop-opacity=".9"/>
-  <stop offset="75%" stop-color="#bc8cff" stop-opacity=".9"/>
+  <stop offset="22%" stop-color="#39d353" stop-opacity=".85"/>
+  <stop offset="50%" stop-color="#58a6ff" stop-opacity=".95"/>
+  <stop offset="78%" stop-color="#bc8cff" stop-opacity=".85"/>
   <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
-  <animate attributeName="x1" values="0;.3;0" dur="5s" repeatCount="indefinite"/>
-  <animate attributeName="x2" values="1;.7;1" dur="5s" repeatCount="indefinite"/>
+  <animate attributeName="x1" values="0;.28;0" dur="5.5s" repeatCount="indefinite"/>
+  <animate attributeName="x2" values="1;.72;1" dur="5.5s" repeatCount="indefinite"/>
 </linearGradient>
-<filter id="dglow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="dglow"><feGaussianBlur stdDeviation="2.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<line x1="0" y1="9" x2="980" y2="9" stroke="url(#dline)" stroke-width="2"/>
+
+<path id="trace" d="M0 13 H150 L166 5 H300 L316 21 H520 L536 5 H700 L716 21 H860 L876 13 H980"
+      fill="none" stroke="url(#dline)" stroke-width="1.9" stroke-linejoin="round"/>
+
+<g fill="#0d1117" stroke="#58a6ff" stroke-width="1.2">
+  <circle cx="166" cy="5" r="3"><animate attributeName="stroke" values="#58a6ff;#39d353;#58a6ff" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="316" cy="21" r="3"><animate attributeName="stroke" values="#39d353;#bc8cff;#39d353" dur="4.6s" repeatCount="indefinite"/></circle>
+  <circle cx="536" cy="5" r="3"><animate attributeName="stroke" values="#bc8cff;#39c5cf;#bc8cff" dur="5.2s" repeatCount="indefinite"/></circle>
+  <circle cx="716" cy="21" r="3"><animate attributeName="stroke" values="#39c5cf;#58a6ff;#39c5cf" dur="3.8s" repeatCount="indefinite"/></circle>
+</g>
+
 <g filter="url(#dglow)">
-  <circle cx="0" cy="9" r="3.2" fill="#39d353">
-    <animate attributeName="cx" values="20;960;20" dur="6s" repeatCount="indefinite"/>
+  <circle r="3.4" fill="#39d353">
+    <animateMotion dur="6s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#trace" xlink:href="#trace"/>
+    </animateMotion>
     <animate attributeName="fill" values="#39d353;#58a6ff;#bc8cff;#39d353" dur="6s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="0" cy="9" r="1.8" fill="#58a6ff" opacity=".7">
-    <animate attributeName="cx" values="960;20;960" dur="8s" repeatCount="indefinite"/>
+  <circle r="2" fill="#58a6ff" opacity=".75">
+    <animateMotion dur="6s" begin="1.2s" repeatCount="indefinite">
+      <mpath href="#trace" xlink:href="#trace"/>
+    </animateMotion>
+  </circle>
+  <circle r="1.6" fill="#bc8cff" opacity=".65">
+    <animateMotion dur="6s" begin="2.6s" repeatCount="indefinite">
+      <mpath href="#trace" xlink:href="#trace"/>
+    </animateMotion>
   </circle>
 </g>
+
 <g fill="#8b949e">
-  <circle cx="470" cy="9" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" repeatCount="indefinite"/></circle>
-  <circle cx="490" cy="9" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" begin=".3s" repeatCount="indefinite"/></circle>
-  <circle cx="510" cy="9" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" begin=".6s" repeatCount="indefinite"/></circle>
+  <circle cx="468" cy="13" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="490" cy="13" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" begin=".3s" repeatCount="indefinite"/></circle>
+  <circle cx="512" cy="13" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" begin=".6s" repeatCount="indefinite"/></circle>
 </g>
 </svg>
