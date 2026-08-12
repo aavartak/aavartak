@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="548" viewBox="0 0 980 548" font-family="JetBrains Mono, DejaVu Sans Mono, monospace">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0b1020"/><stop offset="55%" stop-color="#0d1117"/><stop offset="100%" stop-color="#111b2e"/>
+</linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#39d353"/><stop offset="50%" stop-color="#58a6ff"/><stop offset="100%" stop-color="#bc8cff"/>
+  <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+</linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+.lbl{fill:#58a6ff;font-size:13px}
+.val{fill:#c9d1d9;font-size:13px}
+.sec{fill:#f0883e;font-size:13px;font-weight:700}
+.name{fill:#58a6ff;font-size:18px;font-weight:700}
+.art{fill:#39d353;font-size:10.2px;letter-spacing:.5px}
+.row{opacity:0;animation:in .5s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:translateX(0)}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.cursor{animation:blink 1s step-end infinite}
+.portrait{animation:float 6s ease-in-out infinite;transform-origin:center}
+</style></defs>
+<rect width="980" height="548" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="978" height="546" rx="18" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".85"/>
+<circle cx="34" cy="30" r="6" fill="#ff5f56"><animate attributeName="opacity" values="1;.4;1" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="54" cy="30" r="6" fill="#ffbd2e"><animate attributeName="opacity" values="1;.4;1" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="74" cy="30" r="6" fill="#27c93f"><animate attributeName="opacity" values="1;.4;1" dur="5s" repeatCount="indefinite"/></circle>
+<text x="110" y="35" class="val" opacity=".55">aavartak — README.md</text>
+<line x1="20" y1="52" x2="960" y2="52" stroke="#30363d"/>
+<g class="portrait" filter="url(#glow)">
+<text x="46" y="118" class="art" xml:space="preserve" opacity="0">         ========================.<animate attributeName="opacity" from="0" to="1" begin="0.0s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="133" class="art" xml:space="preserve" opacity="0">         -@@@@@@@@@@@@@@@@@@@@@@=<animate attributeName="opacity" from="0" to="1" begin="0.06s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="148" class="art" xml:space="preserve" opacity="0">          .-==============#@@@%:<animate attributeName="opacity" from="0" to="1" begin="0.12s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="163" class="art" xml:space="preserve" opacity="0">         .#=    .:..     -@@@%.<animate attributeName="opacity" from="0" to="1" begin="0.18s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="178" class="art" xml:space="preserve" opacity="0">        :%@@+   -@@@#:  +@@@#.<animate attributeName="opacity" from="0" to="1" begin="0.24s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="193" class="art" xml:space="preserve" opacity="0">       -@@@@@*   :@@@@-*@@@*<animate attributeName="opacity" from="0" to="1" begin="0.3s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="208" class="art" xml:space="preserve" opacity="0">      =@@@%@@@#.  .%@@@@@@+<animate attributeName="opacity" from="0" to="1" begin="0.36s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="223" class="art" xml:space="preserve" opacity="0">     +@@@#.-@@@%:  .#@@@@=<animate attributeName="opacity" from="0" to="1" begin="0.42s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="238" class="art" xml:space="preserve" opacity="0">    *@@@*   :*%%#:   *@@-<animate attributeName="opacity" from="0" to="1" begin="0.48s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="253" class="art" xml:space="preserve" opacity="0">  .#@@@+              =:<animate attributeName="opacity" from="0" to="1" begin="0.54s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="268" class="art" xml:space="preserve" opacity="0"> .%@@@@###############*.<animate attributeName="opacity" from="0" to="1" begin="0.6s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="283" class="art" xml:space="preserve" opacity="0">:%@@@@@@@@@@@@@@@@@@@@@%:<animate attributeName="opacity" from="0" to="1" begin="0.6599999999999999s" dur=".4s" fill="freeze"/></text>
+<text x="46" y="298" class="art" xml:space="preserve" opacity="0">.........................<animate attributeName="opacity" from="0" to="1" begin="0.72s" dur=".4s" fill="freeze"/></text>
+</g>
+<text x="330" y="80" class="name">aavartak@github<tspan class="cursor" fill="#39d353"> ▌</tspan></text>
+<g class="row" style="animation-delay:0.40s"><text x="330" y="106" class="lbl" xml:space="preserve">OS:</text><text x="940" y="106" class="val" text-anchor="end">Linux >> Windows > macOS</text></g>
+<g class="row" style="animation-delay:0.49s"><text x="330" y="129" class="lbl" xml:space="preserve">Uptime:</text><text x="940" y="129" class="val" text-anchor="end">0 Years, 6 Months, 22 days</text></g>
+<g class="row" style="animation-delay:0.58s"><text x="330" y="152" class="lbl" xml:space="preserve">Host:</text><text x="940" y="152" class="val" text-anchor="end">Virar West, Maharashtra, India</text></g>
+<g class="row" style="animation-delay:0.67s"><text x="330" y="175" class="lbl" xml:space="preserve">Kernel:</text><text x="940" y="175" class="val" text-anchor="end">Computer Engineer</text></g>
+<g class="row" style="animation-delay:0.76s"><text x="330" y="198" class="lbl" xml:space="preserve">IDE:</text><text x="940" y="198" class="val" text-anchor="end">VS Code</text></g>
+<g class="row" style="animation-delay:0.85s"><text x="330" y="229" class="lbl" xml:space="preserve">Languages.Programming:</text><text x="940" y="229" class="val" text-anchor="end">C, C++</text></g>
+<g class="row" style="animation-delay:0.94s"><text x="330" y="252" class="lbl" xml:space="preserve">Languages.Web:</text><text x="940" y="252" class="val" text-anchor="end">HTML, CSS, React</text></g>
+<g class="row" style="animation-delay:1.03s"><text x="330" y="275" class="lbl" xml:space="preserve">Languages.Data:</text><text x="940" y="275" class="val" text-anchor="end">PostgreSQL</text></g>
+<g class="row" style="animation-delay:1.12s"><text x="330" y="298" class="lbl" xml:space="preserve">Hobbies.Tech:</text><text x="940" y="298" class="val" text-anchor="end">Cyber Security</text></g>
+<g class="row" style="animation-delay:1.21s"><text x="330" y="329" class="sec">— Contact</text><line x1="419" y1="324" x2="940" y2="324" stroke="#30363d"/></g>
+<g class="row" style="animation-delay:1.30s"><text x="330" y="352" class="lbl" xml:space="preserve">Email:</text><text x="940" y="352" class="val" text-anchor="end">av.project.2103@gmail.com</text></g>
+<g class="row" style="animation-delay:1.39s"><text x="330" y="375" class="lbl" xml:space="preserve">Phone:</text><text x="940" y="375" class="val" text-anchor="end">+91 77200 54888</text></g>
+<g class="row" style="animation-delay:1.48s"><text x="330" y="398" class="lbl" xml:space="preserve">Github:</text><text x="940" y="398" class="val" text-anchor="end">aavartak</text></g>
+<g class="row" style="animation-delay:1.57s"><text x="330" y="429" class="sec">— Achievements</text><line x1="464" y1="424" x2="940" y2="424" stroke="#30363d"/></g>
+<g class="row" style="animation-delay:1.66s"><text x="330" y="452" class="lbl" xml:space="preserve">Certified:</text><text x="940" y="452" class="val" text-anchor="end">AI Skills Passport (EY x Microsoft)</text></g>
+<g class="row" style="animation-delay:1.75s"><text x="330" y="475" class="lbl" xml:space="preserve">Projects:</text><text x="940" y="475" class="val" text-anchor="end">paisabuddy | FinTrack</text></g>
+<rect x="330" y="506" width="20" height="12" fill="#0d1117" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="0.0s" repeatCount="indefinite"/></rect>
+<rect x="352" y="506" width="20" height="12" fill="#ff5f56" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="0.15s" repeatCount="indefinite"/></rect>
+<rect x="374" y="506" width="20" height="12" fill="#39d353" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="0.3s" repeatCount="indefinite"/></rect>
+<rect x="396" y="506" width="20" height="12" fill="#ffbd2e" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="0.44999999999999996s" repeatCount="indefinite"/></rect>
+<rect x="418" y="506" width="20" height="12" fill="#58a6ff" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="0.6s" repeatCount="indefinite"/></rect>
+<rect x="440" y="506" width="20" height="12" fill="#bc8cff" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="0.75s" repeatCount="indefinite"/></rect>
+<rect x="462" y="506" width="20" height="12" fill="#39c5cf" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="0.8999999999999999s" repeatCount="indefinite"/></rect>
+<rect x="484" y="506" width="20" height="12" fill="#c9d1d9" stroke="#30363d"><animate attributeName="height" values="12;18;12" dur="2s" begin="1.05s" repeatCount="indefinite"/></rect>
+</svg>
