@@ -1,51 +1,11 @@
-<table>
-<tr>
-<td valign="top">
+<div align="center">
 
-```
-         ========================.
-         -@@@@@@@@@@@@@@@@@@@@@@=
-          .-==============#@@@%:
-         .#=    .:..     -@@@%.
-        :%@@+   -@@@#:  +@@@#.
-       -@@@@@*   :@@@@-*@@@*
-      =@@@%@@@#.  .%@@@@@@+
-     +@@@#.-@@@%:  .#@@@@=
-    *@@@*   :*%%#:   *@@-
-  .#@@@+              =:
- .%@@@@###############*.
-:%@@@@@@@@@@@@@@@@@@@@@%:
-.........................
-```
+<img src="./card.svg" alt="aavartak — profile card" width="100%" />
 
-</td>
-<td valign="top">
+<br/>
 
-```yaml
-aavartak@github
-----------------------------------------------------------------
-  OS: ................................... Linux >> Windows > macOS
-  Uptime: ............................. 0 Years, 6 Months, 22 days
-  Host: ........................... Virar West, Maharashtra, India
-  Kernel: ...................................... Computer Engineer
-  IDE: ................................................... VS Code
+![Profile views](https://komarev.com/ghpvc/?username=aavartak&color=39d353&style=flat-square)
+[![GitHub](https://img.shields.io/badge/GitHub-aavartak-58a6ff?style=flat-square&logo=github)](https://github.com/aavartak)
+[![Email](https://img.shields.io/badge/Email-av.project.2103@gmail.com-bc8cff?style=flat-square&logo=gmail&logoColor=white)](mailto:av.project.2103@gmail.com)
 
-  Languages.Programming: .................................. C, C++
-  Languages.Web: ................................ HTML, CSS, React
-  Languages.Data: ..................................... PostgreSQL
-
-  Hobbies.Tech: ................................... Cyber Security
-
-- Contact
-  Email: ............................... av.project.2103@gmail.com
-  Phone: ......................................... +91 77200 54888
-  Github: ............................................... aavartak
-
-- Achievements
-  Certified: ................. AI Skills Passport (EY x Microsoft)
-  Projects: ................................ paisabuddy | FinTrack
-```
-
-</td>
-</tr>
-</table>
+</div>
