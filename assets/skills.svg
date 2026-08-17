@@ -17,8 +17,13 @@
 .pill{opacity:0;animation:pin .55s cubic-bezier(.2,1.5,.3,1) forwards}
 @keyframes pin{from{opacity:0;transform:translateY(10px) scale(.86)}to{opacity:1;transform:translateY(0) scale(1)}}
 @keyframes hover{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
-.fl{animation:hover 3.6s ease-in-out infinite}
+.fl{animation:pin .55s cubic-bezier(.2,1.5,.3,1) forwards, hover 3.6s ease-in-out infinite}
 </style>
+<linearGradient id="ksheen" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+  <stop offset="50%" stop-color="#ffffff" stop-opacity=".12"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
 </defs>
 
 <rect width="980" height="150" rx="14" fill="url(#sbg)"/>
@@ -75,6 +80,10 @@
       <text x="1008" y="128">pointers ▸ data structures ▸ algorithms ▸ os internals ▸ networking ▸ sql ▸ react hooks ▸ responsive ui ▸ threat modeling ▸</text>
     </g>
   </g>
+
+  <rect x="-200" y="46" width="180" height="46" fill="url(#ksheen)">
+    <animate attributeName="x" values="-200;1000" dur="6.5s" begin="1.4s" repeatCount="indefinite"/>
+  </rect>
 
   <rect x="0" y="112" width="980" height="22" fill="url(#fade)"/>
 

@@ -13,7 +13,7 @@
 </defs>
 
 <path id="trace" d="M0 13 H150 L166 5 H300 L316 21 H520 L536 5 H700 L716 21 H860 L876 13 H980"
-      fill="none" stroke="url(#dline)" stroke-width="1.9" stroke-linejoin="round"/>
+      fill="none" stroke="url(#dline)" stroke-width="1.9" stroke-linejoin="round"><animate attributeName="stroke-width" values="1.5;2.4;1.5" dur="4.4s" repeatCount="indefinite"/></path>
 
 <g fill="#0d1117" stroke="#58a6ff" stroke-width="1.2">
   <circle cx="166" cy="5" r="3"><animate attributeName="stroke" values="#58a6ff;#39d353;#58a6ff" dur="4s" repeatCount="indefinite"/></circle>
@@ -45,5 +45,17 @@
   <circle cx="468" cy="13" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" repeatCount="indefinite"/></circle>
   <circle cx="490" cy="13" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" begin=".3s" repeatCount="indefinite"/></circle>
   <circle cx="512" cy="13" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" begin=".6s" repeatCount="indefinite"/></circle>
+</g>
+
+<g fill="none" stroke-width="1">
+  <circle cx="166" cy="5" r="3" stroke="#39d353"><animate attributeName="r" values="3;10" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;0" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="316" cy="21" r="3" stroke="#bc8cff"><animate attributeName="r" values="3;10" dur="3.2s" begin=".8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;0" dur="3.2s" begin=".8s" repeatCount="indefinite"/></circle>
+  <circle cx="536" cy="5" r="3" stroke="#39c5cf"><animate attributeName="r" values="3;10" dur="3.2s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;0" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <circle cx="716" cy="21" r="3" stroke="#58a6ff"><animate attributeName="r" values="3;10" dur="3.2s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;0" dur="3.2s" begin="2.4s" repeatCount="indefinite"/></circle>
+</g>
+<g filter="url(#dglow)">
+  <circle r="1.3" fill="#39c5cf" opacity=".5">
+    <animateMotion dur="6s" begin="4s" repeatCount="indefinite"><mpath href="#trace" xlink:href="#trace"/></animateMotion>
+  </circle>
 </g>
 </svg>
